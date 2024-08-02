@@ -7,8 +7,10 @@ We're trying to test https://the-internet.herokuapp.com/ but, it's going horribl
 3. Make any changes you feel would make this better.
 4. Make a pr.
 
-recommended node version v18.20.2
-we recommend using nvm to install and manage node versions. it can be found at https://github.com/nvm-sh/nvm
+## Node JS
+
+The recommended node version is v18.20.2
+We recommend using nvm to install and manage node versions. It can be found at https://github.com/nvm-sh/nvm.
 
 ## Running Tests
 
@@ -16,4 +18,4 @@ Run tests with `npm run wdio` or `npm run wdio-headless`
 
 Run specific tests with `npm run wdio -- --cucumberOpts.tagExpression="@TAG"`
 
-## You are our only hope.
+#### You are our only hope.
