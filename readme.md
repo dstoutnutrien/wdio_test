@@ -1,19 +1,19 @@
-https://the-internet.herokuapp.com/
+# The internet is broken
 
-Pick a page and write a test
+We're trying to test https://the-internet.herokuapp.com/ but, it's going horribly. Goodness gracious, barely any tests are green. Please help us by doing the following:
 
-### Ideas to break tests
+1. Pull this repo.
+2. Fix as much as you can.
+3. Make any changes you feel would make this better.
+4. Make a pr.
 
-- Not waiting for a page/component to exist before interacting with it
-- ~~Broken selectors~~
-- ~~Maybe a working selector, but it can be improved (like going from xpath -> id)~~
-- long browser.pauses that should be removed
-- not waiting for an action to be completed before asserting the result (similar to my first bullet point)
-- OR, no assertion at all
-- hard coding UN/PW if we want to test out that login form
-- ~~console logging an entire HTML document~~
-- missing async/await keywords when they are needed
-- maybe just missing the await part
-- If there is some infromation we want to have shared between steps, we should test to see if they know how to do that
-- broken gherkin might be good
-- two definitions with one expression
+recommended node version v18.20.2
+we recommend using nvm to install and manage node versions. it can be found at https://github.com/nvm-sh/nvm
+
+## Running Tests
+
+Run tests with `npm run wdio` or `npm run wdio-headless`
+
+Run specific tests with `npm run wdio -- --cucumberOpts.tagExpression="@TAG"`
+
+## You are our only hope.
